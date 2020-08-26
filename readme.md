@@ -16,7 +16,15 @@ IDEAS:
 -first section
     - Text: "pick a city. any city" AND " where will you enjoy the view today?"
     - search bar and button 
-    - dropdown menu 
+    - dropdown menu (?)
+    - change background to image (IN CSS) of a sunset/sunrise(ambiguous) image of a city, new york city?
+    - Options:
+        -  https://4.bp.blogspot.com/-vO5Zrm0vzj0/V0ySXFLw1ZI/AAAAAAAAFd0/cGQ2cAiFdEQVzqMoqFATHa5QOFK8N442gCKgB/s1600/m6.jpg
+        - http://www.katiesbliss.com/wp-content/uploads/2014/03/New-York-City-Sunset.jpg
+        - https://i.pinimg.com/736x/70/d7/cf/70d7cf8f98cf17d5433cdb505cdfb75f.jpg
+
+- add a section where you can drop ask for sunset information by date?
+- MAYBE: add a section where you can drop ask for sunset information by date AND city?
 
 
 If I have time.... 
