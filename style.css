@@ -25,7 +25,6 @@
     /* height: 100vh; */
     display: flex;
     /* border: 0px; */
-    display: flex;
     /* justify-content: space-between; */
     flex-direction: column;
     /* flex-wrap: wrap; */
@@ -112,3 +111,40 @@
     color: rgb(95, 92, 92);
 }
 
+
+/* .output{
+    display: flex;
+    flex-direction: row;
+    background: grey;
+    max-width: 300px;
+} */
+
+/* #city{
+    display: flex;
+    background: orange;
+    max-width: 100px;
+    max-height: 150;
+} */
+
+/* #city-top{
+    display: flex;
+    background: green;
+    max-width: 100px;
+    max-height: 200px;
+    text-align: center;
+} */
+
+/* #sunrise{
+    display: flex;
+    background: orange;
+    max-width: 100px;
+    max-height: 150;
+} */
+
+
+/* #sunset{
+    display: flex;
+    background: orange;
+    max-width: 100px;
+    max-height: 150;
+} */
