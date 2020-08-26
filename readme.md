@@ -20,7 +20,7 @@ IDEAS:
 
     - fourth section: what to bring
 
-- on click, the button takes the user to their selected "destination" 
+- on click, the button takes the user to their selected "destination" on the page  
 
 ** Drop-down menu
 - They can search by date? country? city? still deciding how to design the drop down menu
@@ -29,5 +29,5 @@ IDEAS:
 ** Design a logo
 - it says "pick a city, any city"
 - on the inside, do a play on the word sunrise and sunset
-- Or one logo with sun in the middle, rise at the top and set at the nottom 
+- Or one logo with "sun" in the middle, 'rise' at the top and 'set' at the bottom 
 
