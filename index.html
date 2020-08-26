@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project 1</title>
+
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-    crossorigin="anonymous" defer></script>
+    crossorigin="anonymous"></script>
     
-    <script src="app.js"></script>
+    <script src="app.js" defer></script>
     <link rel="stylesheet" href="style.css">
 
 </head>
@@ -20,23 +21,29 @@
         </div>
 
         <div class="child1"> 
-            <h1 class="large-text"> Pick a city, any city. </h1>
-            <input type="text" placeholder="Type a city" class="input-bar">
+            <p class="large-text"> Pick a city. Any city. </p>
+            <p class="small-text"> where will you enjoy the view today? </p>
+            <input type="text" placeholder="Enter a state or city " class="input-bar" id="submit-btn">
             <input type= "submit" class = "Submit" value = "SEARCH" id="submit-btn">
-
-            <div class="search-button"> 
-            <span class = "lnr lnr-chevron-left"></span>
+            <div class= "date"> 
+            
             </div>
-            <br>
-            <br>     
+               
         </div>
 
-        <div class="child2">
-            <h2 class="sunrise"> Sunrise</h2>
-        </div>
-    
-        <div class="child3">
-            <h2 class="sunset"> Sunset</h2>
+        <!-- turn this into three boxes at the bottom? -->
+        <div class="boxes"> 
+                <div class="child2">
+                    <h2 class="sunrise"> Sunrise</h2>
+                </div>
+            
+                <div class="child3">
+                    <h2 class="sunset"> Sunset</h2>
+                </div>
+
+                <div class="child4">
+                    <h2 class="sunset"> What to Bring</h2>
+                </div>
         </div>
     </div>
  
