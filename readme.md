@@ -10,7 +10,7 @@ check out this website: https://www.impactbnd.com/blog/18-award-winning-website-
 IDEAS:
 
 - header 
-    - button: sunrise, sunset, what to bring
+    - button: For photographers
     - logo: see below  
 
 -first section
@@ -44,14 +44,13 @@ JAVASCRIPT
 - Type in city in the search bar
 - on click, give the sunset and sunrise information for that city 
 
-If I have time.... 
+Add...
+- capability to search by date 
 
-- Drop-down menu
-    - They can search by date? country? city? still deciding how to design the drop down menu
+If I have time..
+- add a section for photogrpahers, CAROUSEL of some photograhic ideas in another HTML that is linked to the current one. 
 
 
 ** Design a logo
-- it says "pick a city, any city"
-- on the inside, do a play on the word sunrise and sunset
-- Or one logo with "sun" in the middle, 'rise' at the top and 'set' at the bottom 
+- One logo with "sun" in the middle, 'rise' at the top and 'set' at the bottom 
 

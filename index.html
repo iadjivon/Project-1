@@ -12,58 +12,65 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
-
-
 <body>
 
     <div id= "container"> 
-        <!-- this is the header and the navigation bar -->
+<!-- this is the header and the navigation bar -->
         <div class="header">
             <div id="navigation">
-                <button class="navigation">Search by City</button>
-                <button class="navigation">Search by Date </button>
-                <button class="navigation"> Explore </button>
+                <!-- <button class="navigation"> Search by City</button> -->
+                <!-- <button class="navigation">Search by Date </button> -->
+                <button class="navigation"> For Photographers </button>
+                
             </div>
         </div>
 
 
-        <div class="child1"  style= "background-image:url(https://images.unsplash.com/photo-1575297398753-21be26fa9f7a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80); background-size: cover;"> 
-            
-            <!-- <p class="large-text"> SUNSET AND SUNRISE TIMES </p> -->
-            <p class="small-text"> where will you enjoy the view today? </p>
 
-            <!-- the search bar and search button -->
+<!-- START OF THE MAIN PART OF THE PAGE -->
+    <div class="child1"  style= "background-image:url(https://images.unsplash.com/photo-1575297398753-21be26fa9f7a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80); background-size: cover;"> 
+         
+    <div class = main-content>
+            <!-- <p class="large-text"> SUNSET AND SUNRISE TIMES </p> -->
+            <p class="small-text"> where will you be enjoying the view? </p>
+
+
+    <!-- THE SEARCH BAR, SEARCH BUTTON AND CALENDAR -->
             <div class="inputs"> 
-            <input type="text" placeholder="Enter a country, state, or city " class="input-bar" id="submit-btn">
-            <input type= "submit" class = "Submit" value = "SEARCH" id="submit-btn">
+
+                <!-- the calendar   -->
+                    <!-- <div class = "calendar" >  -->
+                    <!-- <label for="specific-date" > </label> -->
+                    <input type="date" class="specific-date" value = "2020-08-29" min="1990-01-01" max="2023-12-31">
+                     <!-- </div> -->
+
+                <!-- the search bar and search button -->
+                <input type="text" placeholder="Enter a country, state, or city " class="input-bar" id="submit-btn">
+                <input type= "submit" class = "Submit" value = "SEARCH" id="submit-btn">
             </div>
 
-            <!-- the outputs from the API (city, sunrise and sunset times) -->
+
+    <!-- THE OUTPUTS FROM THE API (CITY, SUNRISE AND SUNSET TIMES) -->
             <div class= "results"> 
                 <dl class="output">
                     <div class="output1">
-                    <dt id="city-top">City:</dt>
-                    <dd id="city">Loading...</dd>
+                    <dt id="city-top">CITY:</dt>
+                    <dt id="city">...</dt>
                     </div>
 
                     <div class="output2">
-                    <dt id="sunrise-top">Sunrise Time:</dt>
-                    <dd id="sunrise">Loading...</dd>
+                    <dt id="sunrise-top">SUNRISE TIME:</dt>
+                    <dt id="sunrise">...</dt>
                     </div>
 
                     <div class="output3">
-                    <dt id="sunset-top">Sunset Time:</dt>
-                    <dd id="sunset">Loading...</dd>
+                    <dt id="sunset-top">SUNSET TIME:</dt>
+                    <dt id="sunset">...</dt>
                     </div>
                 </dl>
             </div>
-            
-            <!-- the calendar   -->
-            <div class = "calendar"> 
-                <label for="specific-date"> Date:</label>
-                <input type="date" class="specific-date" value = "2020-08-29" min="1990-01-01" max="2023-12-31">
-            </div>
-        </div>
+    </div>     
+    </div>
 
         <!-- turn this into three boxes at the bottom? -->
         <!-- <div class="boxes"> 
@@ -80,7 +87,9 @@
                 </div>
         </div> -->
     </div>
- 
+
+<!-- END  OF THE MAIN PART OF THE PAGE -->
+
 
 </body>
 </html>
