@@ -19,14 +19,16 @@
     /* max-width: 200px; */
     /* min-width: 100px; 
     max-width: 100px; */
-    width: 150px;
+    width: 170px;
+    height: 50px;
     background-color: white;
     color: black;
     border-width: 2px;
     border-color: rgb(182, 141, 36);
     flex-direction: row;
     flex-wrap: wrap;
-    font-style: bold;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 #navigation{
@@ -96,13 +98,14 @@
 
 .small-text{
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
     /* font-style: italic; */
     padding: 1px;
     /* bottom: 30px;  */
     margin-bottom: 30px;
     margin-top: 150px;
     color: whitesmoke;
+    font-family: 'Cedarville Cursive', cursive;
 }
 
 
@@ -119,7 +122,8 @@
     opacity: 75%;
     background: white;
     border: white;
-    text-indent: 5px;      
+    text-indent: 7px;
+      
 }
 
 .Submit{
@@ -129,12 +133,17 @@
     background: white;
     border: white;
     padding: 0px;
-    font-size: 15px;
+    font-size: 17px;
+    font-family: 'Karla', sans-serif;
+    font-style: bold;
 }
     
 
 .specific-date{
     margin-right: 7px;
+    text-indent: 7px;
+    width: 150px;
+    font-family: 'Karla', sans-serif;
 }
 
 .inputs{
@@ -142,6 +151,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+    font-family: 'Karla', sans-serif;
 }
 
 
@@ -156,9 +166,11 @@
     max-width: 300px;
     min-width: 150px;
     width: 160px;
-    min-height: 35px;
+    min-width: 150px;
+    min-height: 75px;
+    max-height:100px;
     padding: 5px;
-    margin: 10px;
+    margin: 15px;
     /* justify-content: center; */
     /* font-size: 20px; */
 }
@@ -172,7 +184,7 @@
     min-width: 150px;
     min-height: 35px;
     padding: 5px;
-    margin: 10px;
+    margin: 15px;
     /* justify-content: center;
     font-size: 20px; */
 }
@@ -186,7 +198,7 @@
     min-width: 150px;
     min-height: 35px;
     padding: 5px;
-    margin: 10px;
+    margin: 15px;
     /* justify-content: center;
     font-size: 20px; */
 } 
@@ -195,18 +207,23 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
 #city-top{
     background-color: rgba(107, 39, 39, 0.3);
-    border: 5px;
+    border-top: 5px;
     border-color: rgb(187, 11, 11);
     width: 160px;
+    height: 25px;
     text-align: center;
     color: rgb(230, 217, 217);
     font-style: bold;
     font-size: 16px;
+    padding-top: 5px;
+    
 }
 
 #city{
@@ -218,13 +235,15 @@
 
 #sunrise-top{
     background-color: rgba(107, 39, 39, 0.3);
-    border: 5px;
+    border-top: 5px;
     border-color: rgb(187, 11, 11);
     width: 160px;
+    height: 25px;
     text-align: center;
     color: rgb(230, 217, 217);
     font-style: bold;
     font-size: 16px;
+    padding-top: 5px;
 }
 
 #sunrise{
@@ -236,13 +255,15 @@
 
 #sunset-top{
     background-color: rgba(107, 39, 39, 0.3);
-    border: 5px;
+    border-top: 5px;
     border-color: rgb(187, 11, 11);
     width: 160px;
+    height: 25px;
     text-align: center;
     color: rgb(230, 217, 217);
     font-style: bold;
     font-size: 16px;
+    padding-top: 5px;
 }
 
 #sunset{
@@ -251,11 +272,10 @@
     text-align: center; 
     padding-top: 10px;
 }
-/* .results{
-    display: flex;
-    flex-direction: column;
-
-} */
+.results{
+   margin-top: 30px;
+   
+}
 
 /* -------------------------------------------- */
 /* -------------------------------------------- */
@@ -266,35 +286,6 @@
 
 
 
-
-
-
-
-
-
-
-/* #city-top{
-    display: flex;
-    background: green;
-    max-width: 100px;
-    max-height: 200px;
-    text-align: center;
-} */
-
-/* #sunrise{
-    display: flex;
-    background: orange;
-    max-width: 100px;
-    max-height: 150;
-} */
-
-
-/* #sunset{
-    display: flex;
-    background: orange;
-    max-width: 100px;
-    max-height: 150;
-} */
 
 
 

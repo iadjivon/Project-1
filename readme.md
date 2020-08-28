@@ -52,5 +52,5 @@ If I have time..
 
 
 ** Design a logo
-- One logo with "sun" in the middle, 'rise' at the top and 'set' at the bottom 
+- Zulu for "the view" is "umbono"
 
