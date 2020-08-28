@@ -28,14 +28,14 @@
     flex-direction: row;
     flex-wrap: wrap;
     font-family: 'Montserrat', sans-serif;
-
 }
 
 #navigation{
-   display: flex;
-   flex-wrap: wrap;
+    position: relative;
+   /* display: flex; */
+   /* flex-wrap: wrap; */
    /* align-content: left; */
-   margin-inline-start: 950px;
+   /* margin-inline-start: 950px; */
 }
 
 .header{
@@ -46,9 +46,21 @@
     position: relative;
     display: flex;
     flex-direction: row;
+    height: 120px;
     /* flex-wrap: wrap; */
 }
 
+#logo{
+    position: relative;
+    margin-inline-start: 45%;
+    /* top: 0px;   */
+}
+
+#btn{
+    position: absolute;
+    right: 15px;
+    top: 40px; 
+}
 
 /* -------------------------------------------- */
 /* THE DIFFERENT BOXES -THE BODY*/
