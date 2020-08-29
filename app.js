@@ -41,14 +41,13 @@ $.ajax({
 // CAROUSEL IMAGES 
 ////////////////////////
 
-console.log(' carousel connected to app.js!');
-
 let currentImgIndex = 0;
 let highestIndex = $(".carousel-images").children().length - 1;   
 
 $(".next").on("click", () =>{
 console.log("Next was clicked");
 $(".carousel-images").children().eq(currentImgIndex).css("display", "none");
+
 
 if (currentImgIndex < highestIndex){
     currentImgIndex++;
@@ -58,7 +57,23 @@ if (currentImgIndex < highestIndex){
 
 $(".carousel-images").children().eq(currentImgIndex).css("display", "block");
 
+
 });
+
+$(".previous").on("click", () =>{
+    console.log("Previous was clicked");
+    $(".carousel-images").children().eq(currentImgIndex).css("display", "none");
+    
+    
+    if (currentImgIndex > 0){
+        currentImgIndex--;
+    } else {
+        currentImgIndex = highestIndex;
+    }
+    
+    $(".carousel-images").children().eq(currentImgIndex).css("display", "block");
+    
+    });
 
 
 ////////////////////////

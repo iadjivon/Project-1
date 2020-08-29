@@ -1,35 +1,72 @@
+/////////////////////////////////////
+// PROJECT 1 - UMBONO
+/////////////////////////////////////
+
+ TECHNOLOGIES USED:
+
+- canva - for the logo 
+- VS code for coding 
+- Terminal - for committing 
+- GitHub- for pushing
+
+ 
+  THE APPROACH TAKEN
+  - first wireframe what the website looks like
+  - HTML code the first design
+  - Add CSS to make it look good so that I feel like I'm getting somewhere
+  - java script for the functionality 
+  
+  - redesigned the website multiple times (hardest part was to stick to one design as ideas kept coming)
+  - watched youtube videos to help with CSS
+  - class video on carousel helped with the carousel I created, along with W3 School website
+  
+
+  
+LINK TO LIVE SITE
+file:///Users/idaadjivon/Desktop/Destop%20All%20/TECH/seir-flex-zen-work/projects/Unit%201-%20project/index.html
+
+
+INSTRUCTIONS
+- select a date
+- input a city (any city)
+- click on "search"
+
+
+UNSOLVED PROBLEMS
+- how to link to another HTML?
+
+
+
+
+/////////////////////////////////////
+// PREPARATIONS 
+/////////////////////////////////////
+
+
 FOR API's
 check out this website: https://ipgeolocation.io/astronomy-api.html
 And this one: https://sunrise-sunset.org/api
 
-
-FOR WEBSITE INSPIRATION
+IDEAS:
+For website inspiration
 check out this website: https://www.impactbnd.com/blog/18-award-winning-website-designs 
 
-
-IDEAS:
 
 - header 
     - button: For photographers
     - logo: see below  
 
 -first section
-    - Text: "pick a city. any city" AND " where will you enjoy the view today?"
+    - Text: "where will you enjoy the view today?"
     - search bar and button 
-    - dropdown menu (?)
     - change background to image (IN CSS) of a sunset/sunrise(ambiguous) image of a city, new york city?
     - Options:
-        -  https://4.bp.blogspot.com/-vO5Zrm0vzj0/V0ySXFLw1ZI/AAAAAAAAFd0/cGQ2cAiFdEQVzqMoqFATHa5QOFK8N442gCKgB/s1600/m6.jpg
-        - http://www.katiesbliss.com/wp-content/uploads/2014/03/New-York-City-Sunset.jpg
-        - https://i.pinimg.com/736x/70/d7/cf/70d7cf8f98cf17d5433cdb505cdfb75f.jpg
         - https://images.unsplash.com/photo-1575297398753-21be26fa9f7a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80
 
-- add a section where you can drop ask for sunset information by date?
-- MAYBE: add a section where you can drop ask for sunset information by date AND city?
+- add a section where you can ask for sunset information by date and city?
 
 
 If I have time.... 
-
     - second section: sunsrise
         - bring a chair or a friend. 
         - fun facts about sunrise and sunset
@@ -39,17 +76,12 @@ If I have time....
     - fourth section: what to bring
 
 
-JAVASCRIPT  
 
+JAVASCRIPT  
+- Select date
 - Type in city in the search bar
 - on click, give the sunset and sunrise information for that city 
-
-Add...
-- capability to search by date 
-
-If I have time..
-- add a section for photogrpahers, CAROUSEL of some photograhic ideas in another HTML that is linked to the current one. 
-
+- add a section for photographers, CAROUSEL of some photograhic ideas. 
 
 ** Design a logo
 - Zulu for "the view" is "umbono"
