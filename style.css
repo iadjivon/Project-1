@@ -59,6 +59,7 @@ background-color: rgba(233, 225, 200, 0.5);
 #logo{
     position: relative;
     margin-inline-start: 45%;
+    background: url(/images/logo3.png);
     /* top: 0px;   */
 }
 
