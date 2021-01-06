@@ -1,8 +1,7 @@
 ///////////////////////
 //HEADER
 ////////////////////////
-
-// This is a change to test for push to github
+// this is a change to be deleted.
 
 ////////////////////////
 //FIRST SECTION 
